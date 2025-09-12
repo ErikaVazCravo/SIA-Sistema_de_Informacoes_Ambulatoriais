@@ -1,4 +1,4 @@
-|![DataSUS](img/Logo DataSUS.jpg)|![SIA](img/Logo SIA.jpg)|
+![SIA - DataSUS](img/Logo2.png)
 
 **SIA – Faturamento Ambulatorial** 💵
 
