@@ -1,11 +1,8 @@
 # Automação criada para gerar o relatório 
 # SINTETICO DE REGRAS CONTRATUAIS - UNIDADE
 
-# Será emitido para as unidades:
-# _ CEREST - 331.767-6
-# _ CENTRO DE REABILITACAO - CER - 907.436-8
-# _ UPA Central	- 206.473-1
-# _ UPA Vila Xavier - 404.718-4
+# Será emitido somente para as unidades cujo CNES está relacionado em lista_cnes.
+
 
 import pyautogui
 import time
@@ -13,7 +10,7 @@ import time
 # Marca o início do processamento
 inicio = time.time()
 
-# Lista fixa de CNES
+# Lista fixa de CNES - coloque aqui os números de CNES
 lista_cnes = [
     "3317676",
     "9074368",
